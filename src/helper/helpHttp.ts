@@ -1,5 +1,6 @@
 export async function postData(url: string, data: any) {
-  const token = import.meta.env.TOKEN
+  const token =
+    'gAAAAABl07x3O_FuE-L8vKFgoMKun1R_SsNryMZWgTpFQ7joZiqZr5xTGWI-rVpcG-z5Z82C5NWxmddQpInvwCTbtAV2hRQDimOIeGEIZxs9BZKiRHSThuwiv99h6ehNmWsLtw9siHpd'
 
   const response = await fetch(url, {
     method: 'POST',
