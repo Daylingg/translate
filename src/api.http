@@ -1,0 +1,12 @@
+POST https://api.textcortex.com/v1/texts/translations
+Content-Type: application/json
+Authorization: Bearer gAAAAABl07x3O_FuE-L8vKFgoMKun1R_SsNryMZWgTpFQ7joZiqZr5xTGWI-rVpcG-z5Z82C5NWxmddQpInvwCTbtAV2hRQDimOIeGEIZxs9BZKiRHSThuwiv99h6ehNmWsLtw9siHpd
+
+{
+   
+		"formality": "default",
+  "source_lang": "es",
+  "target_lang": "en",
+  "text": "espero por ti"
+	
+}

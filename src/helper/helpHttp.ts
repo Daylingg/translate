@@ -6,7 +6,7 @@ export async function postData(url: string, data: any) {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      Authorization: `token ${token}`,
+      'Authorization': `Bearer ${token}`,
     },
     body: JSON.stringify(data),
   })
